@@ -1,13 +1,13 @@
 // Utils
-@import './utils/variables';
-@import './utils/visually-hidden';
+@use './utils/variables' as *;
+@use './utils/visually-hidden' as *;
 
-// Base 
-@import './base/fonts';
-@import './base/base';
+// Base
+@use './base/fonts' as *;
+@use './base/base' as *;
 
 // Components
-@import './components/container';
-@import './components/section-title';
+@use './components/container' as container;
+@use './components/section-title' as sectionTitle;
 
 // Layout
