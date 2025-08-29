@@ -1,13 +1,20 @@
 // Utils
-@use './utils/variables' as *;
-@use './utils/visually-hidden' as *;
+@use './utils' as *;
+
+
+
+// @use './utils/variables' as *;
+// @use './utils/visually-hidden' as *;
 
 // Base
 @use './base/fonts' as *;
 @use './base/base' as *;
 
 // Components
-@use './components/container' as container;
-@use './components/section-title' as sectionTitle;
+@use './components/container' as *;
+@use './components/section-title' as *;
 
 // Layout
+@use './layout/header' as *;
+
+
