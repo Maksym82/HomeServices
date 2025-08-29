@@ -1,7 +1,7 @@
 [class*="__container"] {
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 24px;
 
   @media (min-width: 768px) {
     max-width: 768px;
@@ -16,5 +16,10 @@
   @media (min-width: 1440px) {
     max-width: 1440px;
     padding: 0 100px;
+  }
+  
+  @media (min-width: 1920px) {
+    max-width: 1920px;
+    padding: 0 240px;
   }
 }
