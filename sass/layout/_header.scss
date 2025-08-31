@@ -25,6 +25,31 @@
   font-weight: 700;
   line-height: 1.33;
   color: $colorNeuturalWhite;
+  transition: color 0.3s linear;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  color: $colorSkyBlue;
+}
+
+.menu__link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: $colorSkyBlue;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.6s ease;
+}
+
+.menu__link:hover::after,
+.menu__link:focus::after {
+  width: 100%;
+  left: 0;
 }
 
 .header__hours {
@@ -48,4 +73,90 @@
   font-weight: 700;
   line-height: 1.33;
   color: $colorNeuturalWhite;
+}
+
+//Burger menu
+.icon-menu {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .header__container {
+    min-height: 137px;
+  }
+
+  .icon-menu {
+    display: block;
+    flex: 0 0 30px;
+    height: 18px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .icon-menu span,
+  .icon-menu::before,
+  .icon-menu::after {
+    content: "";
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s linear;
+  }
+
+  .icon-menu::before {
+    top: 0;
+  }
+  .icon-menu::after {
+    bottom: 0;
+  }
+  .icon-menu span {
+    top: calc(50% - 1px);
+  }
+  .menu-open .icon-menu span {
+    width: 0;
+  }
+  .menu-open .icon-menu::before {
+    top: calc(50% - 1px);
+    transform: rotate(-45deg);
+  }
+  .menu-open .icon-menu::after {
+    bottom: calc(50% - 1px);
+    transform: rotate(45deg);
+  }
+
+  .menu__body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: $colorDarkBlue-2;
+    left: -100%;
+    top: 0;
+    padding: 137px 15px 30px 15px;
+    overflow: auto;
+    transition: left 0.3s linear;
+  }
+  .menu__body::before {
+    content: "";
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 137px;
+    background: $colorDarkBlue-2;
+    z-index: 2;
+  }
+
+  .menu-open .menu__body,
+  .menu-open .menu__body::before {
+    left: 0;
+  }
+
+  .menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    text-align: center;
+  }
 }
