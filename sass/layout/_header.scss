@@ -1,6 +1,37 @@
-@use '../utils/variables' as *;
-
+@use "../utils/variables" as *;
 
 .header {
   padding: 12px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 56px;
+}
+
+.logo {
+  z-index: 1;
+}
+
+.menu__list {
+  display: flex;
+  gap: 16px;
+}
+
+.menu__link {
+  position: relative;
+  font-weight: 700;
+  line-height: 1.33;
+  color: $colorNeuturalWhite;
+}
+
+.header__hours {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    gap: 10px;
+  }
 }
