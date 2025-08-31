@@ -133,7 +133,7 @@ input {
 @media (min-width: 768px) {
   [class*=__container] {
     max-width: 768px;
-    padding: 0 32px;
+    padding: 0 24px;
   }
 }
 @media (min-width: 1280px) {
@@ -198,6 +198,22 @@ input {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
   }
+}
+
+.icon-hours {
+  width: 12px;
+  height: 12px;
+  background-color: #ff5e5e;
+  border-radius: 50%;
+}
+
+.text-hours {
+  font-weight: 700;
+  line-height: 1.33;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
