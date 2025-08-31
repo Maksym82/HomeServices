@@ -143,9 +143,10 @@
     position: fixed;
     top: 0;
     left: -100%;
-    height: 56px;
+    height: 80px;
     background: $colorDarkBlue-2;
     z-index: 2;
+    transition: left 0.3s linear;
   }
 
   .menu-open .menu__body,
