@@ -6,6 +6,7 @@
 
 .hero__services-list {
   display: flex;
+  justify-content: center;
   gap: 34px;
 }
 
@@ -51,6 +52,7 @@
 
 .hero__bonuses-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 24px;
 }
@@ -75,9 +77,9 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   border-radius: 60px;
-  padding: 8px;
   width: 175px;
   height: 48px;
   background-color: $colorSkyBlue;
@@ -88,11 +90,16 @@
   color: $colorNeuturalWhite;
 }
 
-.icon-phone {
+.hero__button span {
+  display: flex;
   border-radius: 50%;
   padding: 8px;
   width: 32px;
   height: 32px;
   background-color: $colorNeuturalWhite;
+}
+
+.icon-phone {
   fill: $colorSkyBlue;
+  stroke: $colorSkyBlue;
 }
