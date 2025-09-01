@@ -1,0 +1,98 @@
+@use "../utils/variables" as *;
+
+.hero {
+  padding: 24px 24px 0 24px;
+}
+
+.hero__services-list {
+  display: flex;
+  gap: 34px;
+}
+
+.hero__services-item {
+  position: relative;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #9399b2;
+  margin-bottom: 14px;
+}
+
+.hero__services-item:nth-child(2)::before {
+  position: absolute;
+  top: 8px;
+  left: -17px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #9399b2;
+}
+
+.hero__services-item:nth-child(2)::after {
+  position: absolute;
+  top: 8px;
+  right: -17px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #9399b2;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  color: $colorNeuturalWhite;
+  margin-bottom: 24px;
+}
+
+.hero__bonuses-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.hero__bonuses-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $colorSkyBlue;
+}
+
+.icon-check {
+  width: 16px;
+  height: 16px;
+  stroke: $colorSkyBlue;
+}
+
+.hero__button {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 60px;
+  padding: 8px;
+  width: 175px;
+  height: 48px;
+  background-color: $colorSkyBlue;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: $colorNeuturalWhite;
+}
+
+.icon-phone {
+  border-radius: 50%;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  background-color: $colorNeuturalWhite;
+  fill: $colorSkyBlue;
+}
