@@ -150,7 +150,7 @@
 }
 
 .icon-line {
-  width: 290px;
+  width: 217px;
   height: 2px;
   background: linear-gradient(
     45deg,
@@ -163,12 +163,25 @@
 .horizont-line {
   position: absolute;
   top: 110px;
-  left: 10px;
+  left: 30px;
 }
 
 .vertical-line {
   position: absolute;
-  bottom: 110px;
-  left: 0;
+  bottom: 125px;
+  left: 35px;
   rotate: 90deg;
+}
+
+.icon-left-decoration {
+  position: absolute;
+  bottom: 0;
+  left: -43px;
+  fill: $colorNeuturalWhite;
+}
+.icon-right-decoration {
+  position: absolute;
+  bottom: 0;
+  right: 43px;
+  fill: $colorNeuturalWhite;
 }
