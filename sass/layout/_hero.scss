@@ -88,6 +88,7 @@
   line-height: 1.33;
   text-align: center;
   color: $colorNeuturalWhite;
+  margin-bottom: 40px;
 }
 
 .hero__button span {
@@ -102,4 +103,41 @@
 .icon-phone {
   fill: $colorSkyBlue;
   stroke: $colorSkyBlue;
+}
+
+.home__services-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 47px;
+  row-gap: 40px;
+  padding: 13px 22px 28px 22px;
+  margin: 0 auto;
+  width: 280px;
+  height: 217px;
+}
+
+.home__services-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 94px;
+  height: 80px;
+}
+
+.home__services-item span {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #2e3f7d;
+}
+
+.home__services-icon {
+  width: 16px;
+  height: 16px;
+  stroke: $colorNeuturalWhite;
+  fill: transparent;
 }

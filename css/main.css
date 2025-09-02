@@ -442,6 +442,7 @@ input {
   line-height: 1.33;
   text-align: center;
   color: #fff;
+  margin-bottom: 40px;
 }
 
 .hero__button span {
@@ -458,4 +459,55 @@ input {
 .icon-phone {
   fill: #15b2f5;
   stroke: #15b2f5;
+}
+
+.home__services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 47px;
+     -moz-column-gap: 47px;
+          column-gap: 47px;
+  row-gap: 40px;
+  padding: 13px 22px 28px 22px;
+  margin: 0 auto;
+  width: 280px;
+  height: 217px;
+}
+
+.home__services-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  width: 94px;
+  height: 80px;
+}
+
+.home__services-item span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #2e3f7d;
+}
+
+.home__services-icon {
+  width: 16px;
+  height: 16px;
+  stroke: #fff;
+  fill: transparent;
 }/*# sourceMappingURL=main.css.map */
