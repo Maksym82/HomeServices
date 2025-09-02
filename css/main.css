@@ -462,6 +462,7 @@ input {
 }
 
 .home__services-list {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -473,8 +474,8 @@ input {
   row-gap: 40px;
   padding: 13px 22px 28px 22px;
   margin: 0 auto;
-  width: 280px;
-  height: 217px;
+  width: 290px;
+  height: 242px;
 }
 
 .home__services-item {
@@ -485,9 +486,17 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 8px;
-  width: 94px;
+  width: 99px;
   height: 80px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #fff;
 }
 
 .home__services-item span {
@@ -510,4 +519,23 @@ input {
   height: 16px;
   stroke: #fff;
   fill: transparent;
+}
+
+.icon-line {
+  width: 290px;
+  height: 2px;
+  background: linear-gradient(45deg, transparent, #4f66b7 47.9%, transparent 100%);
+}
+
+.horizont-line {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+}
+
+.vertical-line {
+  position: absolute;
+  bottom: 110px;
+  left: 0;
+  rotate: 90deg;
 }/*# sourceMappingURL=main.css.map */
