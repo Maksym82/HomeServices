@@ -51,5 +51,8 @@
         <symbol id="icon-right-decoration" viewBox="0 0 76 32">
             <path d="M46.534 4.178c4.506-2.694 10.272-4.178 16.239-4.178l437.872 0v32h-500.645l46.534-27.823z"></path>
         </symbol>
+        <symbol id="icon-content-check" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M26.667 8l-14.667 14.667-6.667-6.667"></path>
+        </symbol>
     </defs>
 </svg>
