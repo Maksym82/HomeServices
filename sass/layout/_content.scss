@@ -1,0 +1,23 @@
+@use "../utils/variables" as *;
+
+.content {
+  padding: 60px 0 24px 0;
+  background-color: $colorNeuturalWhite;
+}
+
+.content__img {
+  margin-bottom: 32px;
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $colorNeuturalBlack;
+  margin-bottom: 12px;
+}
+
+.content__text {
+  color: $colorNeuturalGrey-1;
+  margin-bottom: 32px;
+}

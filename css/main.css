@@ -542,14 +542,36 @@ input {
 
 .icon-left-decoration {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: -43px;
   fill: #fff;
 }
 
 .icon-right-decoration {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   right: -43px;
   fill: #fff;
+}
+
+.content {
+  padding: 60px 0 24px 0;
+  background-color: #fff;
+}
+
+.content__img {
+  margin-bottom: 32px;
+}
+
+.content__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #171921;
+  margin-bottom: 12px;
+}
+
+.content__text {
+  color: #545971;
+  margin-bottom: 32px;
 }/*# sourceMappingURL=main.css.map */
