@@ -1,8 +1,9 @@
 @use "../utils/variables" as *;
 
 .content {
-  padding: 60px 0 24px 0;
+  padding: 60px 0 32px 0;
   background-color: $colorNeuturalWhite;
+  text-align: center;
 }
 
 .content__img {
@@ -20,4 +21,50 @@
 .content__text {
   color: $colorNeuturalGrey-1;
   margin-bottom: 32px;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.content__item {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $colorDarkBlue-2;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.content-check {
+  width: 16px;
+  height: 16px;
+  stroke: $colorDarkBlue-2;
+  fill: transparent;
+}
+
+.content__info {
+  border-radius: 12px;
+  padding: 12px 24px;
+  width: 327px;
+  height: 108px;
+  background-color: $colorSkyBlue;
+}
+
+.content__info-text {
+  color: $colorNeuturalWhite;
+}
+
+.content__info-text a {
+  font-weight: 600;
+  line-height: 1.33;
+  margin-left: 10px;
+}
+
+.content__info-text a:hover {
+  text-decoration: underline;
 }
