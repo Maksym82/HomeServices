@@ -740,4 +740,27 @@ input {
   line-height: 1.33;
   color: #15b2f5;
   cursor: pointer;
+}
+
+.guarantee {
+  padding: 32px 0;
+  background-color: #142257;
+}
+
+.guarantee__container {
+  padding: 0 32px;
+}
+
+.guarantee__title {
+  text-align: center;
+  color: #fff;
+  width: 202px;
+  margin: 0 auto 12px;
+}
+
+.guarantee__description {
+  width: 263px;
+  text-align: center;
+  color: #9ea3b5;
+  margin: 0 auto 52px;
 }/*# sourceMappingURL=main.css.map */

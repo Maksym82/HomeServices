@@ -1,0 +1,24 @@
+@use "../utils/variables" as *;
+
+.guarantee {
+  padding: 32px 0;
+  background-color: $colorDarkBlue-1;
+}
+
+.guarantee__container {
+  padding: 0 32px;
+}
+
+.guarantee__title {
+  text-align: center;
+  color: $colorNeuturalWhite;
+  width: 202px;
+  margin: 0 auto 12px;
+}
+
+.guarantee__description {
+  width: 263px;
+  text-align: center;
+  color: $colorNeuturalGrey-3;
+  margin: 0 auto 52px;
+}
