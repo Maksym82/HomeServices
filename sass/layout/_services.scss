@@ -17,6 +17,12 @@
   margin-bottom: 32px;
 }
 
+.services__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .services__item {
   width: 304px;
   height: 180px;
