@@ -22,3 +22,13 @@
   color: $colorNeuturalGrey-3;
   margin: 0 auto 52px;
 }
+
+.guarantee__list {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.guarantee__icon {
+  fill: $colorNeuturalGrey-3;
+}

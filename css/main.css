@@ -763,4 +763,19 @@ input {
   text-align: center;
   color: #9ea3b5;
   margin: 0 auto 52px;
+}
+
+.guarantee__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 52px;
+}
+
+.guarantee__icon {
+  fill: #9ea3b5;
 }/*# sourceMappingURL=main.css.map */
