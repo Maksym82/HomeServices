@@ -792,6 +792,10 @@ input {
   width: 263px;
 }
 
+.guarantee__image {
+  margin-bottom: 12px;
+}
+
 .guarantee__icon {
   width: 80px;
   height: 80px;
