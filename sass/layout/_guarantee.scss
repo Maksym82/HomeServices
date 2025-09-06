@@ -29,6 +29,31 @@
   gap: 52px;
 }
 
+.guarantee__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 263px;
+}
+
 .guarantee__icon {
-  fill: $colorNeuturalGrey-3;
+  width: 80px;
+  height: 80px;
+  fill: #9ea3b5;
+  stroke: transparent;
+  margin-bottom: 12px;
+}
+
+.guarantee__card-title {
+  font-weight: 600;
+  line-height: 1.33;
+  text-align: center;
+  color: $colorNeuturalWhite;
+  margin-bottom: 12px;
+}
+
+.guarantee__text {
+  color: $colorNeuturalGrey-3;
 }

@@ -776,6 +776,38 @@ input {
   gap: 52px;
 }
 
+.guarantee__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 263px;
+}
+
 .guarantee__icon {
+  width: 80px;
+  height: 80px;
   fill: #9ea3b5;
+  stroke: transparent;
+  margin-bottom: 12px;
+}
+
+.guarantee__card-title {
+  font-weight: 600;
+  line-height: 1.33;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.guarantee__text {
+  color: #9ea3b5;
 }/*# sourceMappingURL=main.css.map */
