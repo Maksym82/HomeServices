@@ -1,0 +1,21 @@
+@use "../utils/variables" as *;
+
+.works {
+  padding: 32px 0;
+  background-color: $colorNeuturalWhite;
+}
+
+.works__image-box {
+  position: relative;
+  width: 327px;
+  height: 266px;
+  background-image: url("../../images/works/bg-works.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.works__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
