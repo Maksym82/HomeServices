@@ -22,6 +22,12 @@
   gap: 12px;
 }
 
+.works__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .works__card {
   display: flex;
   gap: 24px;
