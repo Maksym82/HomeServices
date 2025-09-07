@@ -6,16 +6,42 @@
 }
 
 .works__image-box {
-  position: relative;
   width: 327px;
   height: 266px;
-  background-image: url("../../images/works/bg-works.webp");
-  background-repeat: no-repeat;
-  background-position: center;
+  margin-bottom: 24px;
 }
 
-.works__image {
-  position: absolute;
-  top: 0;
-  left: 0;
+.works__title {
+  width: 175px;
+  margin-bottom: 24px;
+}
+
+.works__item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.works__card {
+  display: flex;
+  gap: 24px;
+}
+
+.works__card span {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 123%;
+  color: $colorNeuturalGrey-3;
+}
+
+.works__card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  width: 164px;
+  color: $colorNeuturalBlack;
+}
+
+.works__card-text {
+  color: $colorNeuturalGrey-1;
 }
