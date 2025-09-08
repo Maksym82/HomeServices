@@ -531,7 +531,7 @@ input {
 .icon-line {
   width: 217px;
   height: 2px;
-  background: linear-gradient(45deg, transparent, #4f66b7 47.9%, transparent 100%);
+  background: linear-gradient(45deg, transparent, #4f66b7 48%, transparent 100%);
 }
 
 .horizont-line {
@@ -878,4 +878,31 @@ input {
 
 .works__card-text {
   color: #545971;
+}
+
+.reviews {
+  padding: 32px 0;
+  background-color: #fff;
+}
+
+.reviews__title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.reviews__top {
+  position: relative;
+  text-align: center;
+  height: 60px;
+  margin-bottom: 24px;
+}
+
+.reviews__top::after {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  content: "";
+  width: 280px;
+  height: 1px;
+  background: linear-gradient(45deg, transparent, #b5bddb 48%, transparent 100%);
 }/*# sourceMappingURL=main.css.map */
