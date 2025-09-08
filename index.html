@@ -6,6 +6,11 @@
     <title>HomeServices</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- Styles -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
@@ -451,43 +456,67 @@
           <h2 class="section__title reviews__title">
             Here our original reviews from trusted platform
           </h2>
-          <div class="reviews__top">
-            <img
-              src="./images/reviews/logo-trustpilot.webp"
-              alt="logo trustpilot"
-            />
-          </div>
-          <p class="reviews__text">
-            Roof repairs can be a real headache, but HomePro makes it easy!
-            Their roofing team turned my leaky roof into a stockade. With their
-            craftsmanship and the best materials, my house is now ready to
-            weather any storm.
-          </p>
-          <div class="reviews__box">
-            <img class="reviews__image" src="./images/reviews/01.webp" alt="photo Ethan Caldwell" />
-            <div>
-              <p class="reviews__name">Ethan Caldwell</p>
-              <svg class="reviews__icon-star">
-                <use href="./images/icons.svg#icon-reviews-star"></use>
-              </svg>
-              <svg class="reviews__icon-star">
-                <use href="./images/icons.svg#icon-reviews-star"></use>
-              </svg>
-              <svg class="reviews__icon-star">
-                <use href="./images/icons.svg#icon-reviews-star"></use>
-              </svg>
-              <svg class="reviews__icon-star">
-                <use href="./images/icons.svg#icon-reviews-star"></use>
-              </svg>
-              <svg class="reviews__icon-star icon-gray">
-                <use href="./images/icons.svg#icon-reviews-star"></use>
-              </svg>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slide #1 -->
+              <div class="swiper-slide">
+                <div class="reviews__top">
+                  <img
+                    src="./images/reviews/logo-trustpilot.webp"
+                    alt="logo trustpilot"
+                  />
+                </div>
+                <p class="reviews__text">
+                  Roof repairs can be a real headache, but HomePro makes it
+                  easy! Their roofing team turned my leaky roof into a stockade.
+                  With their craftsmanship and the best materials, my house is
+                  now ready to weather any storm.
+                </p>
+                <div class="reviews__box">
+                  <img
+                    class="reviews__image"
+                    src="./images/reviews/01.webp"
+                    alt="photo Ethan Caldwell"
+                  />
+                  <div>
+                    <p class="reviews__name">Ethan Caldwell</p>
+                    <svg class="reviews__icon-star">
+                      <use href="./images/icons.svg#icon-reviews-star"></use>
+                    </svg>
+                    <svg class="reviews__icon-star">
+                      <use href="./images/icons.svg#icon-reviews-star"></use>
+                    </svg>
+                    <svg class="reviews__icon-star">
+                      <use href="./images/icons.svg#icon-reviews-star"></use>
+                    </svg>
+                    <svg class="reviews__icon-star">
+                      <use href="./images/icons.svg#icon-reviews-star"></use>
+                    </svg>
+                    <svg class="reviews__icon-star icon-gray">
+                      <use href="./images/icons.svg#icon-reviews-star"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              ...
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
       </section>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/reviews-slider.js"></script>
   </body>
 </html>
