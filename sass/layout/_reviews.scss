@@ -31,3 +31,40 @@
     transparent 100%
   );
 }
+
+.reviews__text {
+  text-align: center;
+  color: $colorNeuturalGrey-1;
+  margin-bottom: 24px;
+}
+
+.reviews__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.reviews__image {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.reviews__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: $colorNeuturalBlack;
+  margin-bottom: 4px;
+}
+
+.reviews__icon-star {
+  width: 24px;
+  height: 24px;
+  fill: $colorSystemYellow;
+}
+
+.icon-gray {
+  fill: $colorNeuturalSoftGrey;
+}
