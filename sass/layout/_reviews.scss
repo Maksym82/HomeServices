@@ -68,3 +68,53 @@
 .icon-gray {
   fill: $colorNeuturalSoftGrey;
 }
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 50px;
+}
+
+.swiper__btn-box {
+  position: absolute;
+  bottom: 32px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: $colorNeuturalSoftGrey;
+  cursor: pointer;
+  transition: background-color 300ms linear;
+
+  &:hover {
+    background-color: $colorSkyBlue;
+  }
+}
+
+.icon-arrow {
+  width: 24px;
+  height: 24px;
+  stroke: $colorNeuturalWhite;
+  fill: transparent;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 28px;
+}
+
+.swiper-button-next {
+  position: absolute;
+  left: 244px;
+}

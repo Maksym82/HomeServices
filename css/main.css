@@ -948,4 +948,55 @@ input {
 
 .icon-gray {
   fill: #e3e6f0;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 50px;
+}
+
+.swiper__btn-box {
+  position: absolute;
+  bottom: 32px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e3e6f0;
+  cursor: pointer;
+  -webkit-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #15b2f5;
+}
+
+.icon-arrow {
+  width: 24px;
+  height: 24px;
+  stroke: #fff;
+  fill: transparent;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 28px;
+}
+
+.swiper-button-next {
+  position: absolute;
+  left: 244px;
 }/*# sourceMappingURL=main.css.map */
