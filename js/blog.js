@@ -8,5 +8,5 @@ btn.addEventListener("click", () => {
   expanded = !expanded;
   hiddenText.style.display = expanded ? "inline" : "none";
   dots.style.display = expanded ? "none" : "inline";
-  btn.textContent = expanded ? "Скрыть" : "Читать далее";
+  btn.textContent = expanded ? "Hide" : "Read more";
 });
