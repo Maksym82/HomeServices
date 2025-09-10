@@ -1028,4 +1028,23 @@ input {
 .swiper-pagination-bullet-active.custom-bullet {
   width: 32px;
   background-color: #15b2f5;
+}
+
+.blog {
+  padding: 24px 0 32px 0;
+  background-color: #fff;
+}
+
+.blog__title {
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  color: #171921;
+  margin-bottom: 16px;
+}
+
+.blog__description {
+  text-align: center;
+  color: #545971;
+  margin-bottom: 32px;
 }/*# sourceMappingURL=main.css.map */

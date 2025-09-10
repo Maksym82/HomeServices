@@ -1,0 +1,20 @@
+@use "../utils/variables" as *;
+
+.blog {
+  padding: 24px 0 32px 0;
+  background-color: $colorNeuturalWhite;
+}
+
+.blog__title {
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  color: $colorNeuturalBlack;
+  margin-bottom: 16px;
+}
+
+.blog__description {
+  text-align: center;
+  color: $colorNeuturalGrey-1;
+  margin-bottom: 32px;
+}
