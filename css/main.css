@@ -1045,6 +1045,21 @@ input {
 
 .blog__description {
   text-align: center;
-  color: #545971;
   margin-bottom: 32px;
+}
+
+.blog__img {
+  margin-bottom: 16px;
+}
+
+.blog__data {
+  margin-bottom: 12px;
+}
+
+.blog__card-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #171921;
+  margin-bottom: 12px;
 }/*# sourceMappingURL=main.css.map */
