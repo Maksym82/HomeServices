@@ -34,4 +34,29 @@
   margin-bottom: 12px;
 }
 
+.blog__card-text {
+  margin-bottom: 16px;
+}
 
+.blog__btn-more {
+  font-size: 22px;
+  font-weight: 600;
+  color: $colorNeuturalBlack;
+  margin-bottom: 16px;
+}
+
+.blog__categories-list {
+  display: flex;
+  gap: 12px;
+}
+
+.blog__categories-item {
+  padding: 8px 10px;
+  background-color: $colorNeuturalLightGrey;
+  border-radius: 90px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: $colorNeuturalGrey-1;
+}
