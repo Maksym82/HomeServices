@@ -1,12 +1,15 @@
-const btn = document.getElementById("toggleBtn");
-const hiddenText = document.querySelector(".hidden-text");
-const dots = document.querySelector(".dots");
+document.querySelectorAll(".blog__btn-more").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const card = btn.closest("article");
+    const hiddenText = card.querySelector(".hidden-text");
+    const dots = card.querySelector(".dots");
 
-let expanded = false;
+    const isExpanded = hiddenText.style.display === "inline";
 
-btn.addEventListener("click", () => {
-  expanded = !expanded;
-  hiddenText.style.display = expanded ? "inline" : "none";
-  dots.style.display = expanded ? "none" : "inline";
-  btn.textContent = expanded ? "Hide" : "Read more...";
+    hiddenText.style.display = isExpanded ? "none" : "inline";
+    dots.style.display = isExpanded ? "inline" : "none";
+    btn.textContent = isExpanded ? "Read more..." : "Hide";
+  });
 });
+
+
