@@ -23,3 +23,17 @@
   text-decoration: underline;
   color: $colorSkyBlue;
 }
+
+.accordion__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.arrow {
+  width: 32px;
+  height: 32px;
+  fill: transparent;
+  stroke: $colorNeuturalBlack;
+}
