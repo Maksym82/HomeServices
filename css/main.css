@@ -1164,8 +1164,8 @@ input {
   margin-bottom: 16px;
   border: none;
   cursor: pointer;
-  -webkit-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 
 .accordion__button p {
@@ -1184,10 +1184,10 @@ input {
   height: 24px;
   fill: transparent;
   stroke: #171921;
-  -webkit-transition: -webkit-transform 0.3s linear;
-  transition: -webkit-transform 0.3s linear;
-  transition: transform 0.3s linear;
-  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
 }
 
 .accordion__text {
@@ -1199,8 +1199,8 @@ input {
   max-height: 0;
   padding: 0 20px;
   overflow: hidden;
-  -webkit-transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
-  transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
+  -webkit-transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+  transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
 }
 
 .accordion__item.active .accordion-content {
