@@ -147,10 +147,5 @@
         <symbol id="icon-down" viewBox="0 0 32 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 20l-8-8-8 8"></path>
         </symbol>
-        <symbol id="icon-logo-home-services" viewBox="0 0 32 32">
-            <path fill="#13abec" style="fill: var(--color1, #13abec)" d="M8.329 4.646h12.325c2.042 0 3.698 1.655 3.698 3.698v12.325c0 2.042-1.655 3.698-3.698 3.698h-12.325c-2.042 0-3.698-1.655-3.698-3.698v-12.325c0-2.042 1.655-3.698 3.698-3.698z"></path>
-            <path fill="#fff" style="fill: var(--color2, #fff)" d="M13.567 9.109c0.55-0.404 1.299-0.404 1.849 0l3.316 2.438c0.4 0.294 0.636 0.761 0.636 1.257v4.974h-3.121v-4.185l-1.756-1.291-1.756 1.291v4.185h-3.121v-4.974c0-0.496 0.236-0.963 0.636-1.257l3.316-2.438z"></path>
-            <path fill="#131f4b" style="fill: var(--color3, #131f4b)" d="M12.757 17.779h3.487v2.524h-3.487v-2.524z"></path>
-        </symbol>
     </defs>
 </svg>
