@@ -2,10 +2,10 @@
 
 .banner {
   padding: 56px 0 0;
-//   background-image: url('../../images/banner/banner-img.webp');
-//   background-position: bottom;
-//   background-repeat: no-repeat;
-//   background-size: 374px 323px;
+  //   background-image: url('../../images/banner/banner-img.webp');
+  //   background-position: bottom;
+  //   background-repeat: no-repeat;
+  //   background-size: 374px 323px;
 }
 
 .banner__title {
@@ -14,4 +14,22 @@
   text-align: center;
   color: $colorNeuturalWhite;
   margin: 0 auto 24px;
+}
+
+.bg-img {
+  position: relative;
+}
+
+.banner__image {
+  display: block;
+  margin-left: auto;
+}
+
+.banner__icon {
+  position: absolute;
+  left: 15px;
+  bottom: 65px;
+  width: 114px;
+  height: 114px;
+  
 }
