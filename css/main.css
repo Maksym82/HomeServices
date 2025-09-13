@@ -1211,4 +1211,16 @@ input {
 .accordion__item.active .arrow {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
+}
+
+.banner {
+  padding: 56px 0 0;
+}
+
+.banner__title {
+  width: 269px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto 24px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+@use "../utils/variables" as *;
+
+.banner {
+  padding: 56px 0 0;
+//   background-image: url('../../images/banner/banner-img.webp');
+//   background-position: bottom;
+//   background-repeat: no-repeat;
+//   background-size: 374px 323px;
+}
+
+.banner__title {
+  width: 269px;
+  line-height: 1.33;
+  text-align: center;
+  color: $colorNeuturalWhite;
+  margin: 0 auto 24px;
+}
