@@ -1225,19 +1225,7 @@ input {
   margin: 0 auto 24px;
 }
 
-.bg-img {
-  position: relative;
-}
-
 .banner__image {
   display: block;
   margin-left: auto;
-}
-
-.banner__icon {
-  position: absolute;
-  left: 15px;
-  bottom: 65px;
-  width: 114px;
-  height: 114px;
 }/*# sourceMappingURL=main.css.map */
