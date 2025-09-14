@@ -59,6 +59,10 @@
   cursor: pointer;
 }
 
+.footer__info {
+  margin-bottom: 30px;
+}
+
 .footer__logo-box {
   display: flex;
   align-items: center;
@@ -76,7 +80,38 @@
   margin-bottom: 32px;
 }
 
+.footer__soc-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .footer__soc-icon {
   fill: $colorNeuturalWhite;
   stroke: $colorSkyBlue;
+}
+
+.footer__menu {
+  display: flex;
+  gap: 64px;
+}
+
+.footer__menu-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $colorNeuturalWhite;
+  margin-bottom: 24px;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__menu-link {
+  font-size: 20px;
+  line-height: 1.6;
+  color: $colorNeuturalWhite;
 }
