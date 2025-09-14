@@ -1241,6 +1241,7 @@ input {
   width: 325px;
   height: 280px;
   background-color: #4ac9ff;
+  margin-bottom: 30px;
 }
 
 .footer__title {
@@ -1302,4 +1303,30 @@ input {
   text-align: center;
   color: #fff;
   cursor: pointer;
+}
+
+.footer__logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.footer__icon {
+  fill: #fff;
+}
+
+.footer__logo-text {
+  width: 290px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.footer__soc-icon {
+  fill: #fff;
+  stroke: #15b2f5;
 }/*# sourceMappingURL=main.css.map */

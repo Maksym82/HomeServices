@@ -11,6 +11,7 @@
   width: 325px;
   height: 280px;
   background-color: #4ac9ff;
+  margin-bottom: 30px;
 }
 
 .footer__title {
@@ -52,8 +53,30 @@
   background-color: $colorSkyBlue;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.50;
+  line-height: 1.5;
   text-align: center;
   color: $colorNeuturalWhite;
   cursor: pointer;
+}
+
+.footer__logo-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.footer__icon {
+  fill: $colorNeuturalWhite;
+}
+
+.footer__logo-text {
+  width: 290px;
+  color: $colorNeuturalWhite;
+  margin-bottom: 32px;
+}
+
+.footer__soc-icon {
+  fill: $colorNeuturalWhite;
+  stroke: $colorSkyBlue;
 }
