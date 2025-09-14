@@ -137,7 +137,7 @@
         </div>
       </section>
       <!-- Content -->
-      <section class="content">
+      <section class="content" id="about">
         <div class="content__container">
           <img
             class="content__img"
@@ -199,7 +199,7 @@
         </div>
       </section>
       <!-- Services -->
-      <section class="services">
+      <section class="services" id="services">
         <div class="services__container">
           <h2 class="section__title services__title">Our Services</h2>
           <p class="services__description">
@@ -1023,19 +1023,46 @@
               </svg>
             </span>
           </a>
-        </div>
           <div class="bg-img">
-        <picture>
-          <source
-            srcset="./images/banner/banner-image.webp"
-            type="image/webp"
-          >
-          <img class="banner__image" src="./images/banner/banner-image.png" alt="Image worker">
-        </picture>
-      </div>
+            <picture>
+              <source
+                srcset="./images/banner/banner-image.webp"
+                type="image/webp"
+              />
+              <img
+                class="banner__image"
+                src="./images/banner/banner-image.png"
+                alt="Image worker"
+              />
+            </picture>
+          </div>
+        </div>
       </section>
-      
     </main>
+    <!-- Footer -->
+    <section class="footer" id="contact">
+      <div class="footer__container">
+        <div class="footer__box">
+          <h2 class="section__title footer__title">
+            Stay Connected with Our Newsletter
+          </h2>
+          <p class="footer__description">
+            Subscribe to our newsletter to get more news, promo, or news
+            services
+          </p>
+          <form class="form">
+            <input
+              class="form__input"
+              name="input"
+              type="email"
+              placeholder="email address"
+              required
+            />
+            <button class="form__button" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
