@@ -1231,7 +1231,7 @@ input {
 }
 
 .footer {
-  padding: 36px 0;
+  padding: 36px 0 0;
   background-color: #15b2f5;
 }
 
@@ -1350,6 +1350,7 @@ input {
   display: -ms-flexbox;
   display: flex;
   gap: 64px;
+  margin-bottom: 30px;
 }
 
 .footer__menu-title {
@@ -1375,4 +1376,10 @@ input {
   font-size: 20px;
   line-height: 1.6;
   color: #fff;
+}
+
+.footer__rights {
+  padding: 16px 32px;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

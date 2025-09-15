@@ -1,7 +1,7 @@
 @use "../utils/variables" as *;
 
 .footer {
-  padding: 36px 0;
+  padding: 36px 0 0;
   background-color: $colorSkyBlue;
 }
 
@@ -94,6 +94,7 @@
 .footer__menu {
   display: flex;
   gap: 64px;
+  margin-bottom: 30px;
 }
 
 .footer__menu-title {
@@ -114,4 +115,10 @@
   font-size: 20px;
   line-height: 1.6;
   color: $colorNeuturalWhite;
+}
+
+.footer__rights {
+  padding: 16px 32px;
+  color: $colorNeuturalWhite;
+  text-align: center;
 }
