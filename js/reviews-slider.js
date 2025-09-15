@@ -2,7 +2,7 @@ const swiper = new Swiper(".swiper", {
   loop: true,
   speed: 600,
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 10,
 
   pagination: {
     el: ".swiper-pagination",
@@ -17,10 +17,10 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 
-  // autoplay: {
-  //   delay: 5000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
 
   effect: "creative",
   creativeEffect: {

@@ -45,12 +45,6 @@
         <symbol id="icon-vertical-line" viewBox="0 0 0 32">
             <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.1475" d="M0.147 0v32"></path>
         </symbol>   
-        <symbol id="icon-left-decoration" viewBox="0 0 82 32">
-            <path d="M35.014 4.178c-4.506-2.694-10.272-4.178-16.239-4.178l-437.872 0v32h500.645l-46.534-27.823z"></path>
-        </symbol>
-        <symbol id="icon-right-decoration" viewBox="0 0 76 32">
-            <path d="M46.534 4.178c4.506-2.694 10.272-4.178 16.239-4.178l437.872 0v32h-500.645l46.534-27.823z"></path>
-        </symbol>
         <symbol id="icon-content-check" viewBox="0 0 32 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M26.667 8l-14.667 14.667-6.667-6.667"></path>
         </symbol>

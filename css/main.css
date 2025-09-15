@@ -551,6 +551,8 @@ input {
   position: absolute;
   bottom: -1px;
   left: -43px;
+  width: 179px;
+  height: 31px;
   fill: #fff;
 }
 
@@ -558,6 +560,8 @@ input {
   position: absolute;
   bottom: -1px;
   right: -43px;
+  width: 179px;
+  height: 31px;
   fill: #fff;
 }
 
@@ -589,7 +593,7 @@ input {
   gap: 24px;
   margin-bottom: 32px;
 }
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   .content__list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -649,7 +653,7 @@ input {
 }
 
 .services__description {
-  width: 313px;
+  max-width: 313px;
   text-align: center;
   color: #545971;
   margin: 0 auto 32px;
@@ -671,7 +675,7 @@ input {
 }
 
 .services__item {
-  width: 304px;
+  max-width: 304px;
   height: 180px;
 }
 
@@ -767,7 +771,7 @@ input {
 }
 
 .guarantee__description {
-  width: 263px;
+  max-width: 263px;
   text-align: center;
   color: #9ea3b5;
   margin: 0 auto 52px;
@@ -797,7 +801,7 @@ input {
           align-items: center;
   margin: 0 auto;
   text-align: center;
-  width: 263px;
+  max-width: 263px;
 }
 
 .guarantee__image {
