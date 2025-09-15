@@ -60,7 +60,7 @@
 .services__info {
   border-radius: 24px;
   padding: 32px;
-  width: 327px;
+  max-width: 327px;
   height: 236px;
   text-align: center;
   background-color: $colorSkyBlue;
@@ -84,7 +84,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 60px;
-  width: 263px;
+  max-width: 263px;
   height: 48px;
   background-color: $colorNeuturalWhite;
   font-weight: 700;

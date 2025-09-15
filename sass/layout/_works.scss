@@ -6,9 +6,13 @@
 }
 
 .works__image-box {
-  width: 327px;
+  max-width: 327px;
   height: 266px;
   margin-bottom: 24px;
+}
+
+.works__image {
+  max-width: 100%;
 }
 
 .works__title {

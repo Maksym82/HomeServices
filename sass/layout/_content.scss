@@ -6,6 +6,7 @@
 }
 
 .content__img {
+  max-width: 100%;
   margin-bottom: 32px;
 }
 
@@ -45,8 +46,8 @@
 .content__info {
   border-radius: 12px;
   padding: 12px 24px;
-  width: 327px;
-  height: 108px;
+  max-width: 327px;
+  max-height: 145px;
   background-color: $colorSkyBlue;
 }
 
