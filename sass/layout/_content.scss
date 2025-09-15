@@ -6,8 +6,9 @@
 }
 
 .content__img {
+  display: block;
   max-width: 100%;
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
 }
 
 .content__title {
@@ -20,10 +21,14 @@
 }
 
 .content__list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  justify-content: space-between;
   gap: 24px;
   margin-bottom: 32px;
+
+  @media (min-width: 500px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .content__item {
