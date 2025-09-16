@@ -133,11 +133,15 @@
       <!-- Content -->
       <section class="content" id="about">
         <div class="content__container">
-          <img
-            class="content__img"
-            src="./images/content/content.webp"
-            alt="Professional works on the roof"
-          />
+          <picture>
+            <source srcset="./images/content/content.webp" type="image/webp" />
+            <img
+              class="content__img"
+              src="./images/content/content-png.png"
+              alt="Professional works on the roof"
+            />
+          </picture>
+
           <h2 class="section__title content__title">
             Professional for your home services
           </h2>
@@ -293,16 +297,16 @@
                 Lock Installation and Repair, Duplication, Lock Rekeying
               </p>
             </li>
+            <div class="services__info">
+              <h3 class="services__info-title">More service?</h3>
+              <p class="services__info-text">
+                You can tell us what you need and we can help!
+              </p>
+              <a class="services__info-link" href="tel:(888) 617-5894"
+                >Call Us Now</a
+              >
+            </div>
           </ul>
-          <div class="services__info">
-            <h3 class="services__info-title">More service?</h3>
-            <p class="services__info-text">
-              You can tell us what you need and we can help!
-            </p>
-            <a class="services__info-link" href="tel:(888) 617-5894"
-              >Call Us Now</a
-            >
-          </div>
         </div>
       </section>
       <!-- Guarantee -->
@@ -1018,17 +1022,17 @@
             </span>
           </a>
           <!-- <div class="bg-img"> -->
-            <picture>
-              <source
-                srcset="./images/banner/banner-image.webp"
-                type="image/webp"
-              />
-              <img
-                class="banner__image"
-                src="./images/banner/banner-image.png"
-                alt="Image worker"
-              />
-            </picture>
+          <picture>
+            <source
+              srcset="./images/banner/banner-image.webp"
+              type="image/webp"
+            />
+            <img
+              class="banner__image"
+              src="./images/banner/banner-image.png"
+              alt="Image worker"
+            />
+          </picture>
           <!-- </div> -->
         </div>
       </section>
@@ -1114,7 +1118,7 @@
           </ul>
         </div>
         <!-- Footer menu -->
-         <div class="footer__menu">
+        <div class="footer__menu">
           <div class="footer__menu-box">
             <h3 class="footer__menu-title">Company</h3>
             <ul class="footer__menu-list">
@@ -1149,7 +1153,7 @@
               </li>
             </ul>
           </div>
-         </div>
+        </div>
       </div>
       <div class="footer__rights">
         <p>&copy; HomePro . All rights reserved</p>
