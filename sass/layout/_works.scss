@@ -5,19 +5,18 @@
   background-color: $colorNeuturalWhite;
 }
 
-.works__image-box {
-  max-width: 327px;
-  height: 266px;
-  margin-bottom: 24px;
-}
-
 .works__image {
   max-width: 100%;
+  margin-bottom: 24px;
 }
 
 .works__title {
   width: 175px;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    width: 490px;
+  }
 }
 
 .works__item {

@@ -402,13 +402,14 @@
       <!-- Works -->
       <section class="works">
         <div class="works__container">
-          <div class="works__image-box">
-            <img
-              class="works__image"
-              src="./images/works/worker.webp"
-              alt="worker"
-            />
-          </div>
+            <picture>
+              <source srcset="./images/works/worker.webp" type="image/webp" />
+              <img
+                class="works__image"
+                src="./images/works/worker-png.png"
+                alt="worker"
+              />
+            </picture>
           <h2 class="section__title works__title">How HomePro works?</h2>
           <ul class="works__list">
             <!-- Card #1 -->
