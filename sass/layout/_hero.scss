@@ -48,6 +48,10 @@
   text-align: center;
   color: $colorNeuturalWhite;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 43px;
+  }
 }
 
 .hero__bonuses-list {
