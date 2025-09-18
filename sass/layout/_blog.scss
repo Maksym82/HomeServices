@@ -22,6 +22,18 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog__item {
+    width: 330px;
+  }
 }
 
 .blog__img {
@@ -67,8 +79,3 @@
   text-align: center;
   color: $colorNeuturalGrey-1;
 }
-
-
-
-
-

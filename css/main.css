@@ -1150,7 +1150,25 @@ input {
           flex-direction: column;
   gap: 32px;
 }
+@media (min-width: 768px) {
+  .blog__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
+@media (min-width: 768px) {
+  .blog__item {
+    width: 330px;
+  }
+}
 .blog__img {
   margin-bottom: 16px;
   max-width: 100%;
