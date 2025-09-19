@@ -189,47 +189,6 @@
   fill: transparent;
 }
 
-.icon-line {
-  width: 217px;
-  height: 2px;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    #4f66b7 48%,
-    transparent 100%
-  );
-}
-
-.horizont-line {
-  position: absolute;
-  top: 110px;
-  left: 30px;
-}
-
-.vertical-line {
-  position: absolute;
-  bottom: 125px;
-  left: 35px;
-  rotate: 90deg;
-}
-
-.icon-left-decoration {
-  position: absolute;
-  bottom: -1px;
-  left: -43px;
-  width: 179px;
-  height: 31px;
-  fill: $colorNeuturalWhite;
-}
-.icon-right-decoration {
-  position: absolute;
-  bottom: -1px;
-  right: -43px;
-  width: 179px;
-  height: 31px;
-  fill: $colorNeuturalWhite;
-}
-
 .hero__image {
   display: none;
 
