@@ -507,6 +507,26 @@ input {
   height: 242px;
 }
 
+.home__services-list::before {
+  content: "";
+  position: absolute;
+  top: 111px;
+  left: 0px;
+  width: 270px;
+  height: 2px;
+  background: linear-gradient(45deg, transparent, #4f66b7 48%, transparent 100%);
+}
+
+.home__services-list::after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 145px;
+  width: 2px;
+  height: 270px;
+  background: linear-gradient(45deg, transparent, #4f66b7 48%, transparent 100%);
+}
+
 .home__services-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -596,6 +616,7 @@ input {
     display: block;
     overflow: hidden;
     border-radius: 24px;
+    margin-bottom: 16px;
   }
 }
 
@@ -614,6 +635,7 @@ input {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 25px;
 }
 
 .content {
