@@ -1302,6 +1302,7 @@ input {
 }
 
 .accordion__text {
+  font-family: "Be Vietnam", sans-serif;
   color: #737373;
   padding: 0 0 24px;
 }

@@ -37,12 +37,12 @@
                 <a class="menu__link" href="#contact">Contact</a>
               </li>
             </ul>
-             <div class="header__hours-mobile">
-                <svg class="icon-hours">
-                  <use href="./images/icons.svg#icon-hours"></use>
-                </svg>
-                <p class="text-hours">24 Hour Services</p>
-              </div>
+            <div class="header__hours-mobile">
+              <svg class="icon-hours">
+                <use href="./images/icons.svg#icon-hours"></use>
+              </svg>
+              <p class="text-hours">24 Hour Services</p>
+            </div>
           </div>
         </nav>
         <button class="icon-menu" type="button">
@@ -60,80 +60,108 @@
       <!-- Hero -->
       <section class="hero">
         <div class="hero__container">
-          <ul class="hero__services-list">
-            <li class="hero__services-item">Maintenances</li>
-            <li class="hero__services-item">Repairs</li>
-            <li class="hero__services-item">Improvements</li>
-          </ul>
-          <h1 class="hero__title">
-            Need improvement or repair your home? we can help!
-          </h1>
-          <ul class="hero__bonuses-list">
-            <li class="hero__bonuses-item">
-              <svg class="icon-check">
-                <use href="./images/icons.svg#icon-hero-check"></use>
+          <div class="hero__image">
+            <picture>
+              <source
+                srcset="./images/hero/hero-image-left.webp"
+                type="image/webp"
+              />
+              <img
+                class="hero__img"
+                src="./images/hero/hero-img-left-jpg.jpg"
+                alt="Worker is fixing a door"
+              />
+            </picture>
+          </div>
+          <div class="hero__content">
+            <ul class="hero__services-list">
+              <li class="hero__services-item">Maintenances</li>
+              <li class="hero__services-item">Repairs</li>
+              <li class="hero__services-item">Improvements</li>
+            </ul>
+            <h1 class="hero__title">
+              Need improvement or repair your home? we can help!
+            </h1>
+            <ul class="hero__bonuses-list">
+              <li class="hero__bonuses-item">
+                <svg class="icon-check">
+                  <use href="./images/icons.svg#icon-hero-check"></use>
+                </svg>
+                Free Quotes
+              </li>
+              <li class="hero__bonuses-item">
+                <svg class="icon-check">
+                  <use href="./images/icons.svg#icon-hero-check"></use>
+                </svg>
+                100% Commitment-Free
+              </li>
+            </ul>
+            <a class="hero__button" href="tel:(888) 617-5894">
+              Call Us Now
+              <span>
+                <svg class="icon-phone" width="16" height="16">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </span>
+            </a>
+            <ul class="home__services-list">
+              <!-- Item #1 -->
+              <li class="home__services-item">
+                <span>
+                  <svg class="home__services-icon">
+                    <use href="./images/icons.svg#icon-guarantee"></use>
+                  </svg>
+                </span>
+                Satisfaction Guarantee
+              </li>
+              <!-- Item #2 -->
+              <li class="home__services-item">
+                <span>
+                  <svg class="home__services-icon">
+                    <use href="./images/icons.svg#icon-clock"></use>
+                  </svg>
+                </span>
+                24H Availability
+              </li>
+              <!-- Item #3 -->
+              <li class="home__services-item">
+                <span>
+                  <svg class="home__services-icon">
+                    <use href="./images/icons.svg#icon-location"></use>
+                  </svg>
+                </span>
+                Local US Professional
+              </li>
+              <!-- Item #4 -->
+              <li class="home__services-item">
+                <span>
+                  <svg class="home__services-icon">
+                    <use href="./images/icons.svg#icon-calendar"></use>
+                  </svg>
+                </span>
+                Flexible Appointments
+              </li>
+              <svg class="icon-line horizont-line">
+                <use href="./images/icons.svg#icon-horizontal-line"></use>
               </svg>
-              Free Quotes
-            </li>
-            <li class="hero__bonuses-item">
-              <svg class="icon-check">
-                <use href="./images/icons.svg#icon-hero-check"></use>
+              <svg class="icon-line vertical-line">
+                <use href="./images/icons.svg#icon-vertical-line"></use>
               </svg>
-              100% Commitment-Free
-            </li>
-          </ul>
-          <a class="hero__button" href="tel:(888) 617-5894">
-            Call Us Now
-            <span>
-              <svg class="icon-phone" width="16" height="16">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </span>
-          </a>
-          <ul class="home__services-list">
-            <!-- Item #1 -->
-            <li class="home__services-item">
-              <span>
-                <svg class="home__services-icon">
-                  <use href="./images/icons.svg#icon-guarantee"></use>
-                </svg>
-              </span>
-              Satisfaction Guarantee
-            </li>
-            <!-- Item #2 -->
-            <li class="home__services-item">
-              <span>
-                <svg class="home__services-icon">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-              </span>
-              24H Availability
-            </li>
-            <!-- Item #3 -->
-            <li class="home__services-item">
-              <span>
-                <svg class="home__services-icon">
-                  <use href="./images/icons.svg#icon-location"></use>
-                </svg>
-              </span>
-              Local US Professional
-            </li>
-            <!-- Item #4 -->
-            <li class="home__services-item">
-              <span>
-                <svg class="home__services-icon">
-                  <use href="./images/icons.svg#icon-calendar"></use>
-                </svg>
-              </span>
-              Flexible Appointments
-            </li>
-            <svg class="icon-line horizont-line">
-              <use href="./images/icons.svg#icon-horizontal-line"></use>
-            </svg>
-            <svg class="icon-line vertical-line">
-              <use href="./images/icons.svg#icon-vertical-line"></use>
-            </svg>
-          </ul>
+            </ul>
+          </div>
+          <div class="hero__image">
+            <picture>
+              <source
+                srcset="./images/hero/hero-image-right.webp"
+                type="image/webp"
+              />
+              <img
+                class="hero__img"
+                src="./images/hero/hero-img-right-jpg.jpg"
+                alt="Worker is fixing a toilet"
+              />
+            </picture>
+          </div>
         </div>
       </section>
       <!-- Content -->
@@ -1237,7 +1265,11 @@
           <ul class="footer__soc-list">
             <!-- Item #1 -->
             <li class="footer__soc-item">
-              <a class="footer__soc-link" href="https://www.youtube.com/" target="_blank">
+              <a
+                class="footer__soc-link"
+                href="https://www.youtube.com/"
+                target="_blank"
+              >
                 <svg class="footer__soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-youtube"></use>
                 </svg>
@@ -1245,7 +1277,11 @@
             </li>
             <!-- Item #2 -->
             <li class="footer__soc-item">
-              <a class="footer__soc-link" href="https://www.instagram.com/" target="_blank">
+              <a
+                class="footer__soc-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
                 <svg class="footer__soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
@@ -1253,7 +1289,11 @@
             </li>
             <!-- Item #3 -->
             <li class="footer__soc-item">
-              <a class="footer__soc-link" href="https://www.facebook.com/" target="_blank">
+              <a
+                class="footer__soc-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
                 <svg class="footer__soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
@@ -1269,7 +1309,11 @@
             </li>
             <!-- Item #5 -->
             <li class="footer__soc-item">
-              <a class="footer__soc-link" href="https://mail.google.com/" target="_blank">
+              <a
+                class="footer__soc-link"
+                href="https://mail.google.com/"
+                target="_blank"
+              >
                 <svg class="footer__soc-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-mail"></use>
                 </svg>
