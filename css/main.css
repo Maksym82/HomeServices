@@ -503,10 +503,10 @@ input {
   row-gap: 40px;
   padding: 13px 22px 28px 22px;
   margin: 0 auto;
-  width: 290px;
+  max-width: 290px;
   height: 242px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .home__services-list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -519,7 +519,7 @@ input {
             column-gap: 34px;
     max-width: 898px;
     height: 48px;
-    padding: 0;
+    padding: 0 10px;
   }
 }
 
@@ -532,6 +532,11 @@ input {
   height: 2px;
   background: linear-gradient(45deg, transparent, #4f66b7 48%, transparent 100%);
 }
+@media (min-width: 1280px) {
+  .home__services-list::before {
+    display: none;
+  }
+}
 
 .home__services-list::after {
   content: "";
@@ -541,6 +546,11 @@ input {
   width: 2px;
   height: 270px;
   background: linear-gradient(45deg, transparent, #4f66b7 48%, transparent 100%);
+}
+@media (min-width: 1280px) {
+  .home__services-list::after {
+    display: none;
+  }
 }
 
 .home__services-item {
@@ -563,8 +573,9 @@ input {
   text-align: center;
   color: #fff;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .home__services-item {
+    position: relative;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -572,6 +583,20 @@ input {
     gap: 16px;
     width: 210px;
     height: 48px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .home__services-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 1px;
+    height: 48px;
+    background: linear-gradient(45deg, transparent, #4f66b7 48%, transparent 100%);
+  }
+  .home__services-item:last-child::after {
+    display: none;
   }
 }
 
@@ -589,12 +614,25 @@ input {
   border-radius: 50%;
   background-color: #2e3f7d;
 }
+@media (min-width: 1280px) {
+  .home__services-item span {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+  }
+}
 
 .home__services-icon {
   width: 16px;
   height: 16px;
   stroke: #fff;
   fill: transparent;
+}
+@media (min-width: 1280px) {
+  .home__services-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .hero__image {
