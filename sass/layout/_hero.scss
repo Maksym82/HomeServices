@@ -7,6 +7,7 @@
 @media (min-width: 1000px) {
   .hero__container {
     display: flex;
+    justify-content: space-between;
     gap: 10px;
   }
 }
@@ -140,6 +141,7 @@
     max-width: 800px;
     height: 48px;
     padding: 0 10px;
+    margin-bottom: 10px;
   }
 }
 
@@ -286,6 +288,7 @@
   .hero__content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-top: 60px;
   }
 }
