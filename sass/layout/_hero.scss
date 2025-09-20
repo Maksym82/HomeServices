@@ -125,6 +125,16 @@
   margin: 0 auto;
   width: 290px;
   height: 242px;
+
+  @media (min-width: 1200px) {
+    flex-wrap: nowrap;
+    justify-content: center;
+    row-gap: 0;
+    column-gap: 34px;
+    max-width: 898px;
+    height: 48px;
+    padding: 0;
+  }
 }
 
 .home__services-list::before {
@@ -169,6 +179,13 @@
   line-height: 1.43;
   text-align: center;
   color: $colorNeuturalWhite;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    gap: 16px;
+    width: 210px;
+    height: 48px;
+  }
 }
 
 .home__services-item span {
@@ -218,5 +235,9 @@
   border-radius: 25px;
 }
 
-.hero__content {
+@media (min-width: 1200px) {
+  .hero__content {
+   
+
+  }
 }
