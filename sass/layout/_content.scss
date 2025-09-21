@@ -5,10 +5,36 @@
   background-color: $colorNeuturalWhite;
 }
 
+.content__container {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 950px) {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
+.content__image-box {
+  max-width: 710px;
+  margin: 0 auto;
+  flex: 0 1 50%;
+}
+
 .content__img {
   display: block;
   width: 100%;
   margin: 0 auto 32px;
+
+  @media (min-width: 950px) {
+    margin: 0;
+  }
+}
+
+.content__info-box {
+  flex: 0 0 40%;
 }
 
 .content__title {
