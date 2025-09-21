@@ -16,6 +16,11 @@
   display: flex;
   justify-content: center;
   gap: 34px;
+  margin-bottom: 12px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 24px;
+  }
 }
 
 .hero__services-item {
@@ -24,7 +29,12 @@
   font-size: 14px;
   line-height: 143%;
   color: #9399b2;
-  margin-bottom: 14px;
+
+  @media (min-width: 768px) {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+  }
 }
 
 .hero__services-item:nth-child(2)::before {
@@ -58,12 +68,15 @@
   margin-bottom: 24px;
 
   @media (min-width: 768px) {
-    font-size: 43px;
+    font-size: 48px;
   }
 
   @media (min-width: 1280px) {
     width: 670px;
     margin: 0 auto 24px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1.19;
   }
 }
 
@@ -72,22 +85,36 @@
   justify-content: center;
   gap: 24px;
   margin-bottom: 24px;
+
+  @media (min-width: 1350px) {
+    margin-bottom: 48px;
+  }
 }
 
 .hero__bonuses-item {
+  font-family: "Be Vietnam", sans-serif;
   display: flex;
   align-items: center;
   gap: 8px;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.43;
   color: $colorSkyBlue;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.6;
+  }
 }
 
 .icon-check {
   width: 16px;
   height: 16px;
   stroke: $colorSkyBlue;
+
+  @media (min-width: 768px) {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .hero__button {
@@ -106,6 +133,12 @@
   text-align: center;
   color: $colorNeuturalWhite;
   margin-bottom: 40px;
+
+  @media (min-width: 768px) {
+    width: 233px;
+    height: 64px;
+    font-size: 24px;
+  }
 }
 
 .hero__button span {
@@ -115,11 +148,24 @@
   width: 32px;
   height: 32px;
   background-color: $colorNeuturalWhite;
+
+  @media (min-width: 768px) {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+  }
 }
 
 .icon-phone {
+  width: 16px;
+  height: 16px;
   fill: $colorSkyBlue;
   stroke: $colorSkyBlue;
+
+  @media (min-width: 768px) {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .home__services-list {
@@ -141,7 +187,7 @@
     max-width: 800px;
     height: 48px;
     padding: 0 10px;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
   }
 }
 
@@ -290,5 +336,13 @@
     flex-direction: column;
     justify-content: space-between;
     padding-top: 60px;
+
+    @media (min-width: 1440px) {
+      padding-top: 120px;
+    }
+
+    @media (min-width: 1920px) {
+      padding-top: 162px;
+    }
   }
 }

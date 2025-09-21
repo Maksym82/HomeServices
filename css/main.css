@@ -381,6 +381,12 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 34px;
+  margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+  .hero__services-list {
+    margin-bottom: 24px;
+  }
 }
 
 .hero__services-item {
@@ -389,7 +395,13 @@ input {
   font-size: 14px;
   line-height: 143%;
   color: #9399b2;
-  margin-bottom: 14px;
+}
+@media (min-width: 768px) {
+  .hero__services-item {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+  }
 }
 
 .hero__services-item:nth-child(2)::before {
@@ -424,13 +436,16 @@ input {
 }
 @media (min-width: 768px) {
   .hero__title {
-    font-size: 43px;
+    font-size: 48px;
   }
 }
 @media (min-width: 1280px) {
   .hero__title {
     width: 670px;
     margin: 0 auto 24px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1.19;
   }
 }
 
@@ -444,8 +459,14 @@ input {
   gap: 24px;
   margin-bottom: 24px;
 }
+@media (min-width: 1350px) {
+  .hero__bonuses-list {
+    margin-bottom: 48px;
+  }
+}
 
 .hero__bonuses-item {
+  font-family: "Be Vietnam", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,16 +474,27 @@ input {
       -ms-flex-align: center;
           align-items: center;
   gap: 8px;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.43;
   color: #15b2f5;
+}
+@media (min-width: 768px) {
+  .hero__bonuses-item {
+    font-size: 20px;
+    line-height: 1.6;
+  }
 }
 
 .icon-check {
   width: 16px;
   height: 16px;
   stroke: #15b2f5;
+}
+@media (min-width: 768px) {
+  .icon-check {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .hero__button {
@@ -488,6 +520,13 @@ input {
   color: #fff;
   margin-bottom: 40px;
 }
+@media (min-width: 768px) {
+  .hero__button {
+    width: 233px;
+    height: 64px;
+    font-size: 24px;
+  }
+}
 
 .hero__button span {
   display: -webkit-box;
@@ -499,10 +538,25 @@ input {
   height: 32px;
   background-color: #fff;
 }
+@media (min-width: 768px) {
+  .hero__button span {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+  }
+}
 
 .icon-phone {
+  width: 16px;
+  height: 16px;
   fill: #15b2f5;
   stroke: #15b2f5;
+}
+@media (min-width: 768px) {
+  .icon-phone {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .home__services-list {
@@ -535,7 +589,7 @@ input {
     max-width: 800px;
     height: 48px;
     padding: 0 10px;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
   }
 }
 
@@ -695,6 +749,16 @@ input {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-top: 60px;
+  }
+}
+@media (min-width: 1280px) and (min-width: 1440px) {
+  .hero__content {
+    padding-top: 120px;
+  }
+}
+@media (min-width: 1280px) and (min-width: 1920px) {
+  .hero__content {
+    padding-top: 162px;
   }
 }
 .content {
