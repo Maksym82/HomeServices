@@ -834,8 +834,8 @@ input {
 
 .content__info-box {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 40%;
-          flex: 0 0 40%;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
 }
 
 .content__title {
