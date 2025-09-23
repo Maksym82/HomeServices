@@ -1,6 +1,12 @@
 @use "../utils/variables" as *;
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: #142257;
   padding: 12px 0;
 }
 
