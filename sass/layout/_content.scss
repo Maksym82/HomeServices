@@ -15,12 +15,21 @@
     justify-content: space-between;
     gap: 30px;
   }
+
+  @media (min-width: 1920px) {
+    padding: 0 240px;
+  }
 }
 
 .content__image-box {
   max-width: 710px;
+  max-height: 700px;
   margin: 0 auto;
   flex: 0 1 50%;
+
+  @media (min-width: 950px) {
+    margin: 0;
+  }
 }
 
 .content__img {
@@ -35,6 +44,10 @@
 
 .content__info-box {
   flex: 0 0 45%;
+
+  @media (min-width: 1920px) {
+    max-width: 561px;
+  }
 }
 
 .content__title {
