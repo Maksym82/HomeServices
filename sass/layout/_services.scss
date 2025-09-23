@@ -3,6 +3,22 @@
 .services {
   padding: 32px 0;
   background-color: $colorNeuturalWhite;
+
+  @media (min-width: 1200px) {
+    padding: 64px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services__container {
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .services__container {
+    padding: 0 240px;
+  }
 }
 
 .services__title {
