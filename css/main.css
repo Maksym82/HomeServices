@@ -146,6 +146,7 @@ input {
   .section__title {
     font-size: 52px;
     line-height: 1.23;
+    margin-bottom: 24px;
   }
 }
 
@@ -809,9 +810,9 @@ input {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -868,6 +869,11 @@ input {
   color: #545971;
   margin-bottom: 32px;
 }
+@media (min-width: 1200px) {
+  .content__text {
+    margin-bottom: 56px;
+  }
+}
 
 .content__list {
   display: grid;
@@ -880,6 +886,12 @@ input {
 @media (min-width: 768px) {
   .content__list {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .content__list {
+    gap: 32px;
+    margin-bottom: 56px;
   }
 }
 

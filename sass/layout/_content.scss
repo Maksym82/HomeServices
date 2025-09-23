@@ -11,7 +11,7 @@
 
   @media (min-width: 950px) {
     flex-direction: row-reverse;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     gap: 30px;
   }
@@ -57,6 +57,10 @@
 .content__text {
   color: $colorNeuturalGrey-1;
   margin-bottom: 32px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 56px;
+  }
 }
 
 .content__list {
@@ -67,6 +71,11 @@
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    gap: 32px;
+    margin-bottom: 56px;
   }
 }
 
