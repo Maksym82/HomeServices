@@ -3,10 +3,23 @@
 .guarantee {
   padding: 32px 0;
   background-color: $colorDarkBlue-1;
+
+  @media (min-width: 1200px) {
+    padding: 64px 0;
+  }
 }
 
 .guarantee__container {
   padding: 0 32px;
+}
+
+@media (min-width: 1200px) {
+  .guarantee__box-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
 }
 
 .guarantee__title {
@@ -19,6 +32,12 @@
     width: 502px;
     margin: 0 auto 24px;
   }
+
+  @media (min-width: 1200px) {
+    width: 600px;
+    text-align: left;
+    margin: 0;
+  }
 }
 
 .guarantee__description {
@@ -29,6 +48,12 @@
 
   @media (min-width: 768px) {
     max-width: 502px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 613px;
+    text-align: left;
+    margin: 0;
   }
 }
 
