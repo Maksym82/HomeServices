@@ -1131,6 +1131,11 @@ input {
 .guarantee__container {
   padding: 0 32px;
 }
+@media (min-width: 768px) {
+  .guarantee__container {
+    padding: 0 64px;
+  }
+}
 
 @media (min-width: 1200px) {
   .guarantee__box-title {
