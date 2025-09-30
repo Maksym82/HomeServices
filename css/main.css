@@ -1151,6 +1151,12 @@ input {
     margin-bottom: 60px;
   }
 }
+@media (min-width: 1920px) {
+  .guarantee__box-title {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 .guarantee__title {
   text-align: center;
   color: #fff;
@@ -1165,9 +1171,14 @@ input {
 }
 @media (min-width: 1200px) {
   .guarantee__title {
-    width: 600px;
+    width: 485px;
     text-align: left;
     margin: 0;
+  }
+}
+@media (min-width: 1920px) {
+  .guarantee__title {
+    width: 600px;
   }
 }
 
