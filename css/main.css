@@ -1440,6 +1440,11 @@ input {
   padding: 32px 0;
   background-color: #fff;
 }
+@media (min-width: 1200px) {
+  .reviews {
+    padding: 64px 0;
+  }
+}
 
 .reviews__title {
   text-align: center;
