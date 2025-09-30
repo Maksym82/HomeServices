@@ -1348,8 +1348,16 @@ input {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    gap: 50px;
+  }
+}
+@media (min-width: 1920px) {
+  .works__container {
     gap: 88px;
   }
 }
@@ -1359,7 +1367,17 @@ input {
   max-width: 100%;
   margin: 0 auto 24px;
 }
+@media (min-width: 1200px) {
+  .works__image {
+    margin: 0;
+  }
+}
 
+@media (min-width: 1200px) {
+  .works__text-box {
+    width: 40%;
+  }
+}
 .works__title {
   width: 175px;
   margin-bottom: 24px;
