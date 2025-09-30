@@ -3,11 +3,27 @@
 .works {
   padding: 32px 0;
   background-color: $colorNeuturalWhite;
+
+  @media (min-width: 1200px) {
+    padding: 64px 0;
+  }
+}
+
+.works__container {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 88px;
+  }
 }
 
 .works__image {
+  display: block;
   max-width: 100%;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
 }
 
 .works__title {
