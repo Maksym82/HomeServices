@@ -1758,6 +1758,11 @@ input {
   line-height: 1.33;
   color: #3a3a3a;
 }
+@media (min-width: 1200px) {
+  .accordion__button p {
+    width: 700px;
+  }
+}
 
 .accordion__item.active {
   background-color: #f3f5f9;
