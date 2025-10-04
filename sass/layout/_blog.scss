@@ -3,6 +3,10 @@
 .blog {
   padding: 24px 0 32px 0;
   background-color: $colorNeuturalWhite;
+
+  @media (min-width: 1200px) {
+    padding: 68px 0;
+  }
 }
 
 .blog__title {
@@ -78,4 +82,20 @@
   line-height: 1.43;
   text-align: center;
   color: $colorNeuturalGrey-1;
+}
+
+.blog__view-more {
+  margin: 2rem auto 0;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #15b2f5;
+  border: none;
+  cursor: pointer;
+  transition: color 0.25s linear;
+}
+
+.blog__view-more:hover {
+  color: #005fcc;
 }

@@ -1599,6 +1599,11 @@ input {
   padding: 24px 0 32px 0;
   background-color: #fff;
 }
+@media (min-width: 1200px) {
+  .blog {
+    padding: 68px 0;
+  }
+}
 
 .blog__title {
   font-size: 32px;
@@ -1686,6 +1691,23 @@ input {
   line-height: 1.43;
   text-align: center;
   color: #545971;
+}
+
+.blog__view-more {
+  margin: 2rem auto 0;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #15b2f5;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: color 0.25s linear;
+  transition: color 0.25s linear;
+}
+
+.blog__view-more:hover {
+  color: #005fcc;
 }
 
 .faq {
