@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin-bottom: 20px;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -85,17 +86,26 @@
 }
 
 .blog__view-more {
-  margin: 2rem auto 0;
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
-  color: #15b2f5;
+  color: $colorSkyBlue;
   border: none;
+  margin: 0 auto;
   cursor: pointer;
   transition: color 0.25s linear;
-}
 
-.blog__view-more:hover {
-  color: #005fcc;
+  .arrow-right {
+    width: 18px;
+    height: 18px;
+    fill: transparent;
+    transition: color 0.25s linear;
+  }
+
+  &:hover {
+    color: #005fcc;
+  }
 }

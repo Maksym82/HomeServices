@@ -172,5 +172,8 @@
             <path d="M5.333 5.333h21.333c1.467 0 2.667 1.2 2.667 2.667v16c0 1.467-1.2 2.667-2.667 2.667h-21.333c-1.467 0-2.667-1.2-2.667-2.667v-16c0-1.467 1.2-2.667 2.667-2.667z"></path>
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M29.333 8l-13.333 9.333-13.333-9.333"></path>
         </symbol>
+        <symbol id="icon-Vector" viewBox="0 0 21 32">
+            <path  stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.5714" d="M3.429 29.714l13.714-13.714-13.714-13.714"></path>
+        </symbol>
     </defs>
 </svg>
