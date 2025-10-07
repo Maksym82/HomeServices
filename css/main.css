@@ -1745,9 +1745,15 @@ input {
     gap: 30px;
   }
 }
+@media (min-width: 1440px) {
+  .faq__container {
+    padding: 0 120px;
+  }
+}
 @media (min-width: 1920px) {
   .faq__container {
     gap: 138px;
+    padding: 0 240px;
   }
 }
 .faq__title {
@@ -1759,6 +1765,11 @@ input {
     width: 375px;
     text-align: left;
     margin-bottom: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .faq__title {
+    width: 469px;
   }
 }
 
