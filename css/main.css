@@ -1640,7 +1640,13 @@ input {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    gap: 42px;
     margin-bottom: 56px;
+  }
+}
+@media (min-width: 1200px) {
+  .blog__list {
+    gap: 52px;
   }
 }
 
@@ -1918,10 +1924,16 @@ input {
   color: #fff;
   margin: 0 auto 24px;
 }
+@media (min-width: 768px) {
+  .banner__title {
+    width: 100%;
+  }
+}
 
 .banner__image {
   display: block;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 .footer {

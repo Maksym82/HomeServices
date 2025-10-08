@@ -10,9 +10,14 @@
   text-align: center;
   color: $colorNeuturalWhite;
   margin: 0 auto 24px;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
 }
 
 .banner__image {
   display: block;
   max-width: 100%;
+  margin: 0 auto;
 }

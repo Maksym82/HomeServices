@@ -32,7 +32,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 42px;
     margin-bottom: 56px;
+  }
+
+  @media (min-width: 1200px) {
+    gap: 52px;
   }
 }
 
