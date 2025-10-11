@@ -1916,6 +1916,20 @@ input {
 .banner {
   padding: 56px 0 0;
 }
+@media (min-width: 1200px) {
+  .banner {
+    padding: 68px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 
 .banner__title {
   width: 269px;
@@ -1929,7 +1943,30 @@ input {
     width: 100%;
   }
 }
+@media (min-width: 1200px) {
+  .banner__title {
+    width: 662px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1.19;
+    text-align: left;
+  }
+}
 
+@media (min-width: 1200px) {
+  .banner__list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-bottom: 36px;
+    gap: 41px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner__button {
+    margin-left: 0;
+  }
+}
 .banner__image {
   display: block;
   max-width: 100%;

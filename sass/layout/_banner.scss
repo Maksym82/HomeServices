@@ -2,6 +2,13 @@
 
 .banner {
   padding: 56px 0 0;
+
+  @media (min-width: 1200px) {
+    padding: 68px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .banner__title {
@@ -13,6 +20,28 @@
 
   @media (min-width: 768px) {
     width: 100%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 662px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1.19;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner__list {
+    justify-content: flex-start;
+    margin-bottom: 36px;
+    gap: 41px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner__button {
+    margin-left: 0;
   }
 }
 
