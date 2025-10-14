@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initAccordion();
   initSwiper();
   initMenuToggle();
+  initPopup(); // 👈 добавлено
 });
 
 // Переключение скрытого текста в карточке блога
@@ -36,7 +37,7 @@ function initCardReveal() {
     card.style.display = index < cardsPerClick ? "block" : "none";
   });
 
-  viewMoreBtn.addEventListener("click", () => {
+  viewMoreBtn?.addEventListener("click", () => {
     for (let i = visibleCount; i < visibleCount + cardsPerClick; i++) {
       if (cards[i]) {
         cards[i].style.display = "block";
@@ -117,9 +118,38 @@ function initSwiper() {
 function initMenuToggle() {
   document.addEventListener("click", (e) => {
     const targetItem = e.target;
-    console.log(targetItem);
     if (targetItem.closest(".icon-menu") || targetItem.closest(".menu__link")) {
       document.documentElement.classList.toggle("menu-open");
     }
   });
+}
+
+// 💬 Попап благодарности после отправки формы
+function initPopup() {
+  const form = document.querySelector(".form");
+  const input = form?.querySelector(".form__input");
+  const popup = document.querySelector(".popup");
+  const closeBtn = document.querySelector(".popup__close");
+
+  if (!form || !input || !popup || !closeBtn) return;
+
+  const showPopup = () => {
+    popup.classList.add("popup--visible");
+    document.body.classList.add("body--no-scroll");
+  };
+
+  const hidePopup = () => {
+    popup.classList.remove("popup--visible");
+    document.body.classList.remove("body--no-scroll");
+  };
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    showPopup();
+    input.value = "";
+    input.blur();
+    setTimeout(hidePopup, 5000);
+  });
+
+  closeBtn.addEventListener("click", hidePopup);
 }

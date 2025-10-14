@@ -1,0 +1,65 @@
+@use "../utils/variables" as *;
+
+.body--no-scroll {
+  overflow: hidden;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  z-index: 1000;
+}
+
+.popup__content {
+  background: -webkit-linear-gradient(
+    90deg,
+    #142257,
+    #1f3584
+  ); 
+  background: linear-gradient(
+    90deg,
+    #142257,
+    #1f3584
+  ); 
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 360px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.popup__message {
+  color: $colorNeuturalWhite;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.popup__close {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s linear;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($colorDarkBlue-1, 20%);
+  }
+}
+
+.popup--visible {
+  opacity: 1;
+  visibility: visible;
+}
