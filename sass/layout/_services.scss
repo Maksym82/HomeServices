@@ -125,4 +125,11 @@
   line-height: 1.33;
   color: $colorSkyBlue;
   cursor: pointer;
+  transition: all 0.35s linear;
+
+  &:hover,
+  &:focus {
+    background-color: darken($colorSkyBlue, 15%);
+    color: lighten($colorShadesOfBlue-2, 15%);
+  }
 }

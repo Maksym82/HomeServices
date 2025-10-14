@@ -543,6 +543,11 @@ input {
   text-align: center;
   color: #fff;
   margin-bottom: 40px;
+  -webkit-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+}
+.hero__button:hover, .hero__button:focus {
+  background-color: rgb(7.7663934426, 129.6987704918, 181.7336065574);
 }
 @media (min-width: 768px) {
   .hero__button {
@@ -1116,6 +1121,12 @@ input {
   line-height: 1.33;
   color: #15b2f5;
   cursor: pointer;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.services__info-link:hover, .services__info-link:focus {
+  background-color: rgb(7.7663934426, 129.6987704918, 181.7336065574);
+  color: white;
 }
 
 .guarantee {
@@ -2094,6 +2105,11 @@ input {
   text-align: center;
   color: #fff;
   cursor: pointer;
+  -webkit-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+}
+.form__button:hover, .form__button:focus {
+  background-color: rgb(7.7663934426, 129.6987704918, 181.7336065574);
 }
 
 .footer__info {
@@ -2119,6 +2135,13 @@ input {
   gap: 12px;
   margin-bottom: 32px;
 }
+@media (min-width: 768px) {
+  .footer__logo-box {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 
 .footer__icon {
   fill: #fff;
@@ -2140,6 +2163,13 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 24px;
+}
+@media (min-width: 768px) {
+  .footer__soc-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 .footer__soc-icon {
@@ -2186,6 +2216,11 @@ input {
   font-size: 20px;
   line-height: 1.6;
   color: #fff;
+  -webkit-transition: color 0.25s linear;
+  transition: color 0.25s linear;
+}
+.footer__menu-link:hover, .footer__menu-link:focus {
+  color: rgb(2.7590361446, 78.6325301205, 111.7409638554);
 }
 
 .footer__rights {

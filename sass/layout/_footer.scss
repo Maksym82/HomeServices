@@ -85,6 +85,12 @@
   text-align: center;
   color: $colorNeuturalWhite;
   cursor: pointer;
+  transition: background-color 0.25s linear;
+
+  &:hover,
+  &:focus {
+    background-color: darken($colorSkyBlue, 15%);
+  }
 }
 
 .footer__info {
@@ -102,6 +108,10 @@
   justify-content: center;
   gap: 12px;
   margin-bottom: 32px;
+
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
 }
 
 .footer__icon {
@@ -118,6 +128,10 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
+
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
 }
 
 .footer__soc-icon {
@@ -154,6 +168,12 @@
   font-size: 20px;
   line-height: 1.6;
   color: $colorNeuturalWhite;
+  transition: color 0.25s linear;
+
+  &:hover,
+  &:focus {
+    color: darken($colorShadesOfBlue-1, 45%)
+  }
 }
 
 .footer__rights {

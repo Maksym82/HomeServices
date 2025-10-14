@@ -143,6 +143,12 @@
   text-align: center;
   color: $colorNeuturalWhite;
   margin-bottom: 40px;
+  transition: background-color 0.25s linear;
+
+  &:hover,
+  &:focus {
+    background-color: darken($colorSkyBlue, 15%);
+  }
 
   @media (min-width: 768px) {
     width: 233px;
