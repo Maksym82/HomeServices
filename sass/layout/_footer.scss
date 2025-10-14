@@ -9,6 +9,18 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .footer__container {
+    padding: 0 120px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .footer__container {
+    padding: 0 240px;
+  }
+}
+
 .footer__box {
   border-radius: 24px;
   padding: 20px;
@@ -24,7 +36,9 @@
 
   @media (min-width: 768px) {
     flex-direction: row;
+    justify-content: space-between;
     gap: 32px;
+    margin-bottom: 32px;
   }
 }
 
@@ -75,6 +89,11 @@
 
 .footer__info {
   margin: 0 auto 30px;
+
+  @media (min-width: 768px) {
+    width: 433px;
+    margin: 0;
+  }
 }
 
 .footer__logo-box {
@@ -111,6 +130,10 @@
   justify-content: center;
   gap: 64px;
   margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
 }
 
 .footer__menu-title {
