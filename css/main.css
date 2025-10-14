@@ -2175,6 +2175,12 @@ input {
 .footer__soc-icon {
   fill: #fff;
   stroke: #15b2f5;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.footer__soc-icon:hover, .footer__soc-icon:focus {
+  fill: rgb(7.7663934426, 129.6987704918, 181.7336065574);
+  stroke: white;
 }
 
 .footer__menu {

@@ -137,6 +137,13 @@
 .footer__soc-icon {
   fill: $colorNeuturalWhite;
   stroke: $colorSkyBlue;
+  transition: all 0.35s linear;
+
+  &:hover,
+  &:focus {
+    fill: darken($colorSkyBlue, 15%);
+    stroke: lighten($colorNeuturalSoftGrey, 15%);
+  }
 }
 
 .footer__menu {
